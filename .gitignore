@@ -1,0 +1,32 @@
+# ---- Environment variables (real secrets, never upload) ----
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# ---- Frontend (Node) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# ---- Backend (Python) ----
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---- Editor / OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# Any env-style file (but keep the safe example)
+.env.*
+!.env.example
+*.env.txt

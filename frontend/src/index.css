@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #faf8f3;
+}
+
+.input {
+  @apply border border-[#2F6F5E]/15 rounded-lg px-3 py-2 text-sm outline-none focus:border-[#2F6F5E] w-full bg-white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
